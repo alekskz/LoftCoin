@@ -20,7 +20,8 @@ public class PrefsImpl implements Prefs {
 
     @Override
     public boolean isFirstLaunch() {
-        return getPrefs().getBoolean(KEY_FIRST_LAUNCH,true);
+
+        return getPrefs().getBoolean(KEY_FIRST_LAUNCH, true);
     }
 
     @Override
